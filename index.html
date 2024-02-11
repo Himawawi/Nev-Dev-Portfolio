@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Nev Dev</title>
+</head>
+<body>
+    <nav id="nav-container">
+        <div id="logo">
+            <img class="logo_img" src="./img/Nt.png">
+        </div>
+        <div id="nav-list">
+            <div class="nav-item"><a class="nav-a" href="#homepage-section">Home</a></div>
+            <div class="nav-item"><a class="nav-a" href="#aboutme-section">Über mich</a></div>
+            <div class="nav-item"><a class="nav-a" href="#projects-section">Projekte</a></div>
+            <div class="nav-item"><a class="nav-a" href="#contactme-section">Kontakt</a></div>
+        </div>
+    </nav>
+
+    <section id="homepage-section">
+        <video autoplay loop src="./img/nt_ani.mp4"></video>
+        <div class="homepage-container">
+            <div class="item-home name-title">Nevruz Tuerk</div>
+            <div class="item-home job-title">Spiel- und Webentwickler in progress</div>
+            <div class="item-home buttons">
+                <button class="btn"><a class="btn-a" href="https://github.com/Himawawi?tab=repositories">GitHub</a></button>
+                <button class="btn"><a class="btn-a" href="#contactme-section">Kontakt</a></button>
+            </div>
+            <div class="item-home skills-container">
+                <img class="skills_logo" src="./img/CSharp.png">
+                <img class="skills_logo" src="./img/Unity.png">
+                <img class="skills_logo" src="./img/HTML.png">
+                <img class="skills_logo" src="./img/CSS.png">
+                <img class="skills_logo" src="./img/JS.png">
+                <img class="skills_logo" src="./img/Wip.png">
+            </div>
+        </div>
+    </section>
+
+    <section id="aboutme-section">
+        <div class="section-title purple-title"><h3>Über mich</h3></div>
+        <div id="aboutme-container">
+            <div class="item-aboutme aboutme-text">
+            <div class="aboutme-desc">Ich bin Nevruz, ein Game- und Webentwickler in progress. Als Alumni der SAE Institue
+                 hab ich habe ich fundierte Kenntnisse in der Programmiersprache C# erworben durch verschiedene
+                  Minispiele und Simulationen. Zusätzlich befasse ich mich derzeit intensiv mit der Webentwicklung,
+                   insbesondere mit HTML, CSS und Javascript.</div>
+            </div>
+    
+            <div class="item-aboutme aboutme-pic">        
+            <img src="./img/Me.jpg" class="mee">
+            </div>
+        </div>
+    </section>
+
+    <section id="projects-section">
+        <div class="section-title white-title"><h3>Projekte</h3></div>
+        <div id="projects-container">
+            <div class="item-projects">
+                <div class="project-thumbnail-slider left">
+                    <img src="./img/projectpics/bussingfly1.png" class="project-thumbnail bf">
+                    <img src="./img/projectpics/bussingfly2.png" class="project-thumbnail bf">
+                    <img src="./img/projectpics/bussingfly3.png" class="project-thumbnail bf">
+                    <img src="./img/projectpics/bussingfly4.png" class="project-thumbnail bf">
+                </div>
+                <div class="project-description right">
+                    <div class="project-header">Bussing Fly</div>
+                    <div class="project-body">
+                        <div class="project-text">
+                            Minispiel im Flappy Bird-Stil erstellt mit C# und Unity, in dem man Hindernisse überwinden muss und unterschiedliche Power-Ups nehmen kann.</div>
+                        <a href="https://github.com/Himawawi/Bussing-Fly"><img src="./img/GitHUB.png" class="gitlink"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-projects">
+                <div class="project-thumbnail-slider right">
+                    <img src="./img/projectpics/firstblood1.png" class="project-thumbnail fb">
+                    <img src="./img/projectpics/firstblood2.png" class="project-thumbnail fb">
+                    <img src="./img/projectpics/firstblood3.png" class="project-thumbnail fb">
+                    <img src="./img/projectpics/firstblood4.png" class="project-thumbnail fb">
+                </div>
+                <div class="project-description left">
+                    <div class="project-header">First Blood</div>
+                    <div class="project-body">
+                        <div class="project-text">1-gegen-1-Spiel erstellt mit C# und Unity, mit vier Charakteren mit jeweils unterschiedlichen Angriffen und Steuerungen. Der erste Spieler, der den anderen treffen 
+                            kann, gewinnt das Spiel.</div>
+                        <a href="https://github.com/Himawawi/First-Blood"><img src="./img/GitHUB.png" class="gitlink"></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item-projects">
+                <div class="project-thumbnail-slider left">
+                    <img src="./img/projectpics/terraineditor1.png" class="project-thumbnail te">
+                    <img src="./img/projectpics/terraineditor2.png" class="project-thumbnail te">
+                    <img src="./img/projectpics/terraineditor3.png" class="project-thumbnail te">
+                </div>
+                <div class="project-description right">
+                    <div class="project-header">Terrain Editor</div>
+                    <div class="project-body">
+                        <div class="project-text">Prozeduralen generiertes Gelände erstellt mit C# und Unity, indem man seine Eigenschaften, wie zB Höhepunkte, Tiefpunkte und Farben, durch 
+                            anpassbarer Werte ändern kann.</div>
+                        <a href="https://github.com/Himawawi/Terrain-Editor"><img src="./img/GitHUB.png" class="gitlink"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-projects bottom-project">
+                <div class="project-thumbnail-slider right">
+                    <img src="./img/projectpics/nesha1.png" class="project-thumbnail nm">
+                    <img src="./img/projectpics/nesha2.png" class="project-thumbnail nm">
+                    <img src="./img/projectpics/nesha3.png" class="project-thumbnail nm">
+                    <img src="./img/projectpics/nesha4.png" class="project-thumbnail nm">
+                </div>
+                <div class="project-description left">
+                    <div class="project-header">Friend's Portfolio</div>
+                    <div class="project-body">
+                        <div class="project-text">Dies ist meine erste mit HTML und CSS erstellte Website, die ich als Portfolio für einen Freund mit seine Grafikdesigner-Projekte erstellt habe.</div>
+                        <a href="https://himawawi.github.io/Friend-Pf/"><img src="./img/Link.png" class="gitlink"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contactme-section">
+        <div class="section-title purple-title"><h3>Schreib mich an</h3></div>
+        <div id="contactme-container">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="d3dc384c-74e0-45c1-9ad6-f08022247bbb">
+                <input type="text" name="name" placeholder="Dein Name" class="contact-input" required>
+                <input type="email" name="email" placeholder="Deine Email" class="contact-input" required>
+                <textarea name="message" placeholder="Deine Nachricht" class="contact-input"></textarea>
+                <button type="submit" class="send-btn">Senden</button>
+            </form>
+        </div>
+        <div class="logo-pink-container"><img src="./img/Nt_pink.png" class="logo-pink"></div>
+    </section>
+
+    <div id="footer-section">
+        <div class="scroll-up">
+            <a href="#homepage-section"><img src="./img/Up_Arrow.png" class="up-arrow"></a>
+        </div>
+        <div class="footer-text">Nevruz Tuerk @ 2024</div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
