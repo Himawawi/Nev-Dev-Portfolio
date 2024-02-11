@@ -1214,7 +1214,7 @@ textarea{
     width: 55rem;
     height: 35rem;
     overflow-y: hidden;
-    top: 24%;
+    top: 20%;
     right: 1%;
     z-index: 0;
 }
@@ -1237,7 +1237,10 @@ textarea{
         flex-direction: column;
         position: relative;
     }
-    
+    #contactme-container{
+        height: 60vh;
+    }
+
     form{
         width: 85%;
     }
@@ -1271,6 +1274,10 @@ textarea{
         display: flex;
         flex-direction: column;
         position: relative;
+    }
+    
+    #contactme-container{
+        height: 60vh;
     }
     
     form{
